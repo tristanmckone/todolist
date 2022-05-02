@@ -5,6 +5,14 @@ let theText = document.getElementById("item");
 const listItems = document.getElementById("listItems");
 
 
+let buttonHome = document.getElementById("home");
+
+buttonHome.addEventListener("click", () =>
+{  
+   window.location.href = "index.html";
+});
+
+
 button.addEventListener("click", () => {
        
       // Create the Li element
